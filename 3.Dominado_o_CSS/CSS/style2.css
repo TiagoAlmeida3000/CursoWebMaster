@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html,body{
+    height: 100%;
+}
+
+
+.text[type="text"]{
+    background-color: green;
+}
+input[type="submit"]{
+    background-color: hotpink;
+}
+
+/* 
+Procura nas tags de link o 
+atributo href com o valor 
+especificado que tem que ser 
+igual
+
+a[href="http://www.google.com"]{
+    background: yellow;
+}
+
+[href="www.dankicode.com"]{
+    background-color: red;
+} */
+
+/* 
+Procura entre os espaços do atributo
+
+a[attr~="google"]{
+    
+}*/
+
+/* Procura no tributo href parte 
+da palavra espicificada  
+
+a[href*="google"]{
+    background-color: blue;
+} */
+
+ 

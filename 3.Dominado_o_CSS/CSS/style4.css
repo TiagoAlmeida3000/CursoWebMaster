@@ -1,0 +1,19 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+html,body{
+    height: 100%;
+}
+
+.bg{
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+    /* Backgrounds */
+    background-color: red;
+    background-image: url("../imagens/website-background.jpg");
+    background-size: cover;
+    background-position: 50% 50%;
+    background-repeat: no-repeat
+}

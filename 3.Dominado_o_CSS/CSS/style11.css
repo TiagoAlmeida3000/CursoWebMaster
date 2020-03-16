@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+@font-face{
+    font-family: "Minha Fonte";
+    src:url('../Fonts/Caesar_Dressing/CaesarDressing-Regular.ttf')
+}
+
+html, body{
+    height: 100%;
+    font-family: "Minha Fonte";
+}
+
+form *{
+    font-family: "Minha Fonte";
+}
+
+.font1{
+    font-weight: bolder;
+    font-family: "Open Sans";
+}
+
+.font2{
+    font-weight: lighter;
+    font-family: 'Minha Fonte';
+}
+
+.box p{
+    font-family: "Minha Fonte";
+}
+
+.text{
+    font-family: tahoma !important;
+}

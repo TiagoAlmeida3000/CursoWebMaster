@@ -1,0 +1,29 @@
+.artigo{
+    width: 1280px;
+    background-color: rgba(196, 196, 196, 0.945);
+    padding: 40px;
+    margin: 40px auto;
+    text-align: center;
+}
+
+.artigo h1{
+    font-size: 25px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+}
+
+.artigo p{
+    font-size: 17px;
+    text-align: left;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    line-height: 40px;
+    margin-top: 12px;
+}
+
+.artigo2 p{
+    letter-spacing: 5px;
+    line-height: 30px;
+}

@@ -1,0 +1,64 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html,body{
+    height: 100%;
+}
+
+.file input[type=file]{
+    display: none;
+}
+
+.file label{
+    display: block;
+    margin: 40px auto;
+    cursor: pointer;
+    width: 220px;
+    height: 40px;
+    background-color: #ccc;
+    color: white;
+    text-align: center;
+    line-height: 40px;
+}
+
+.select{
+    text-align: center;
+    background-color: #ccc;
+    padding: 30px 0;
+}
+
+.select select{
+    width: 220px;
+    height: 40px;
+    border: 0;
+    background-image: url();
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+}
+
+select::-ms-expand{
+    display: none;
+}
+
+.check input[type=checkbox]{
+    display: none;
+}
+
+.check label{
+    margin: 0 60px;
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    background-color: green;
+}
+
+/* Quando o checkbox for selecionado mude 
+a label*/
+.check input[type=checkbox]:checked + label{
+    width: 30px;
+    height: 30px;
+    background-color: red;
+}

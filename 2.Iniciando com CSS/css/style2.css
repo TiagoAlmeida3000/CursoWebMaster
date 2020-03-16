@@ -1,0 +1,22 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.menu{
+    width: 600px;
+    height: 20px;
+    background-color: rgb(69, 197, 197);
+    margin: 30px auto;
+    text-align: center;
+    padding: 10px;
+}
+
+.menu > a{
+    text-decoration: none;
+    padding: 1px;
+    border: 1px solid black;
+    font-size: 16px;
+    margin: 0 10px;
+    color: black;
+}

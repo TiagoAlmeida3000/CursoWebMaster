@@ -1,0 +1,59 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html,body{
+    height: 100%;
+}
+
+.teste, .teste1, .teste2{
+    display: inline-block;
+    width: 300px;
+    margin-top: 30px;
+    margin-left: 30px;
+    height: 300px;
+    background-color: #ccc;
+}
+
+.teste1{
+    background-color: rgb(98, 98, 98);
+}
+
+.teste2{
+    background-color: rgb(50, 50, 50);
+}
+
+.teste3, .teste4{
+    margin-left: 30px;
+}
+
+/* hover quando passamos o mouse 
+por cima */
+
+/* .teste:hover{
+    background-color: blue;
+    height: 900px;
+}
+
+.teste:hover, .teste1,.teste2{
+    vertical-align: top;
+} */
+
+/* active quando clicamos e
+mantemos precionado */
+
+/* .teste:active{
+    background-color: black;
+} */
+
+/* focus quando clicamos */
+
+/* .teste3 input:focus{
+    background-color: red;
+} */     
+
+
+/* .teste4:visited{
+    color: red
+} */

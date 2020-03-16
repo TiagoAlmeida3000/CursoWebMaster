@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+html,body{
+    height: 100%;
+}
+/* .table1{
+    width: 900px;
+    margin: 0 auto;
+    border-collapse: collapse;
+}
+
+table tr td{
+    background-color: grey;
+    height: 300px;
+    vertical-align: top;
+    border: 1px solid black;
+} */
+
+.menu-fixed{
+    position: fixed;  /*fixed,absolute,relative,static*/
+    left: 30px;
+    width: 300px;
+    height: 200px;
+    background: #069;
+}
+.box{
+     width: 100%;   
+    height: 1400px;
+    background: green;
+}
+
+.box p{
+    width: 400px;
+}

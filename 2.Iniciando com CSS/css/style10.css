@@ -1,0 +1,19 @@
+html,body{
+    height: 100%;
+}
+
+.box{
+    width: 300px;
+    height: 200px;
+    margin: 30px auto;
+    background: gray;
+    overflow: auto;
+}
+.box2{
+    width: 300px;
+    height: 200px;
+    margin: 0 auto;
+    background:red;
+    overflow: auto;
+    display: none;
+}
