@@ -1,0 +1,170 @@
+header{
+    border-bottom: 3px solid #eb2d2d;
+}
+
+/* ########## COMEÇO VENDA ########## */
+
+section.venda{
+    padding: 90px 0;
+    min-height: 90%;
+}
+
+.content-venda{
+    margin-top: 40px;
+}
+
+.sidebar{
+    float: left;
+    width: 30%;
+}
+
+.search-1{
+    width: 90%;
+}
+
+.search-1 h2{
+    font-size: 24px;
+    color: black;
+    font-weight: bolder;
+}
+
+.search-1 .barra-preco{
+    width: 100%;
+    height: 20px;
+    margin-top: 8px;
+    background-color: white;
+    border: 1px solid #ccc;
+    border-radius: 20px;
+    position: relative;
+}
+
+.barra-preco-fill{
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 30%;
+    height: 20px;
+    border-radius: 20px;
+    background: 
+    linear-gradient(
+        to bottom,
+         rgb(255,255,255),
+         rgb(200,200,200));
+}
+
+.pointer-barra{
+    width: 24px;
+    height: 24px;
+    position: absolute;
+    left: calc(30% - 13px);
+    top: -2px;
+    cursor: pointer;
+    border-radius: 8px;
+    background: 
+    linear-gradient(
+        to bottom,
+         rgb(255, 255, 255),
+         rgb(180, 180, 180));
+    border: 1px solid black;
+}
+
+.valor-pesquisa{
+   margin-top: 8px;
+}
+
+.valor-pesquisa p{
+    color: black;
+    font-size: 15px;
+}
+
+.valor-pesquisa p:nth-of-type(1){
+    float: left;
+}
+
+.valor-pesquisa p:nth-of-type(2){
+    float: right;
+}
+
+.search-2{
+    margin-top: 40px;
+}
+
+.search-2 h2{
+    font-size: 24px;
+    color: black;
+    font-weight: bolder;
+}
+
+.form-venda-wraper{
+    margin-top: 10px;
+}
+
+.form-venda-wraper input[type=checkbox]{
+display: none;
+}
+
+.form-venda-wraper label{
+    width: 20px;
+    height: 20px;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    vertical-align: top;
+    cursor: pointer;
+    position: relative;
+}
+
+.circle{
+    display: none;
+    width: 8px;
+    height: 8px;
+    border-radius: 4px;
+    background-color: black;
+    position: absolute;
+    left: 6px;
+    top: 6px;
+}
+
+.form-venda-wraper input[type=checkbox]:checked + label > .circle{
+    display: block;
+}
+
+.form-venda-wraper span{
+    padding: 0 10px;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.vitrine-venda{
+    overflow: hidden;
+    float: left;
+    width: 70%;
+}
+
+.vitrine-venda .vitrine-destaque{
+    margin-top: 20px;
+}
+
+
+@media screen and (max-width: 768px){
+    .sidebar{
+        width: 100%;
+        text-align: center;
+    }
+
+    .search-1{
+        display: inline-block;
+    }
+
+    .search-2{
+        text-align: left;
+        display: inline-block;
+    }
+
+    .vitrine-venda{
+        text-align: center;
+        width: 100%;
+    }
+}
+
+

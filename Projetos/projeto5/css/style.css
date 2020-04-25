@@ -1,0 +1,545 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Oswald', sans-serif;
+}
+
+html,body{
+    height: 100%;
+}
+
+.container{
+    width: 100%;
+    max-width: 1400px;
+    margin: 0 auto;
+}
+
+.clear{
+    clear: both;
+}
+
+/* ########## COMEÇO HEADER ########## */
+
+header{
+    padding: 20px 2% 35px 2%;
+    height: 130px;
+}
+
+header div.logo{
+    float: left;
+}
+
+header nav.desktop{
+    float: right;
+    position: relative;
+    top: 40px;
+}
+
+header nav.desktop ul {
+    list-style-type: none;
+}
+
+header nav.desktop ul li{
+    float: left;
+    font-size: 23px;
+    font-weight: bolder;
+    padding: 0 30px;
+    font-style: italic;
+}
+
+header nav.desktop ul li a{
+    color: black;
+    text-decoration: none;
+}
+
+nav.mobile{
+    margin-top: 40px;
+    float: right;
+    width: 32px;
+    height: 32px;
+    background-size: 100% 100%;
+    cursor: pointer;
+    background-image: url(../imagens/icon_menu.png);
+    display: none;
+}
+
+nav.mobile ul{
+    display: none;
+    z-index: 999;
+    width: 100%;
+    left: 0;
+    top: 105px;
+    border-bottom: 4px solid #eb2d2d;
+    position: absolute;
+    text-align: center;
+    background-color: white;
+}
+
+nav.mobile ul li{
+    font-size: 23px;
+    font-weight: bolder;
+    padding: 20px 0;
+    font-style: italic; 
+}
+
+nav.mobile li a{
+    color: black;
+    text-decoration: none;
+}
+
+/* ########## FIM HEADER ########## */
+
+/* ########## COMEÇO BANNER ########## */
+
+section.banner{
+    width: 100%;
+    height: 600px; 
+    min-height: 600px;
+    max-height: 800px;
+    background-color: black;
+    background-image: url(../imagens/bg.jpg);
+    background-size: contain;
+    background-position: right bottom;
+    background-repeat: no-repeat;
+}
+
+.text-banner{
+    padding: 100px;
+}
+
+.text-banner-single{
+    width: 314px;
+    margin-top: 20px;
+    padding: 12px;
+    height: 60px;
+    color: white;
+    text-transform: uppercase;
+    font-size: 23px;
+    background-color: #eb2d2d;
+    background-size: 100% 100%;
+}
+
+.text-banner .text-banner-single:nth-of-type(1){
+    width: 280px;
+}
+
+.text-banner .text-banner-single:nth-of-type(2){
+    width: 180px;
+}
+
+.text-banner .text-banner-single:nth-of-type(3){
+    width: 80px;
+}
+
+.text-banner .text-banner-single:nth-of-type(4){
+    width: 320px;
+    color: black;
+    background-color: white;
+}
+
+.text-banner .text-banner-single p{
+    text-align: center;
+}
+
+/* ########## FIM BANNER ########## */
+
+/* ########## COMEÇO VEICULOS-DESTAQUE ########## */
+
+section.veiculos-destaque{
+    padding: 90px 0;
+}
+
+.line-titulo{
+    max-width: 1400px;
+    margin: 0 auto;
+    position: relative;
+    text-align: center;
+}
+
+.ln1{
+    position: absolute;
+    height: 2px;
+    width: 100%;
+    top: 20px;
+    background-color: black;
+}
+
+section.veiculos-destaque .container{
+    max-width: 1000px;
+    padding: 40px 0;
+}
+
+.vitrine-destaque{
+    float: left;
+    padding: 0 10px;
+    width: 33.3%;
+}
+
+.line-titulo h2{
+    position: relative;
+    background-color: white;
+    display: inline-block;
+    text-align: center;
+    padding: 0 20px;
+    font-weight: 27px;
+    font-style: italic;
+    text-transform: uppercase;
+}
+
+.vitrine-destaque .carro-img{
+    width: 100%;
+    padding-top: 100%;
+    background-size: 100% 100%;
+
+}
+
+.vitrine-destaque h2{
+    color: black;
+    font-style: italic;
+    font-size: 20px;
+}
+
+.vitrine-destaque p{
+    padding-top: 8px;
+    color: #353535;
+    font-size: 15px;
+    font-style: italic;
+    padding-top: 8px;
+}
+
+.btn-1{
+    width: 150px;
+    text-decoration: none;
+    color: white;
+    font-style: italic;
+    font-weight: bolder;
+    text-align: center;
+    display: block;
+    line-height: 40px;
+    background-color: #eb2d2d;
+}
+
+.vitrine-destaque a{
+    margin-top: 10px;
+}
+
+/* ########## FIM VEICULOS-DESTAQUE ########## */
+
+
+/* ########## COMEÇO SERVICO-DESCRICAO ########## */
+
+.servicos-descricao{
+    display: flex;
+}
+
+.half-1{
+    width: 50%;
+    text-align: right;
+    padding: 90px 0;
+    background-color: #242424;
+    color: white;
+}
+
+.half-1-wraper{
+    padding-right: 100px;
+    text-align: left;
+    display: inline-block;
+}
+
+.half-1-wraper h2{
+    font-weight: normal;
+    font-style: italic;
+    font-size: 32px;
+}
+
+.half-1-wraper ul{
+    display: inline-block;
+    margin-top: 20px;
+}
+
+.half-1-wraper li{
+    margin-left: 15px;
+}
+
+.half-1-wraper a{
+    margin-left: 40px;
+    display: inline-block;
+    vertical-align: bottom;
+}
+
+.half-2{
+    width: 50%;
+    text-align: center;
+    padding: 90px 100px;
+    background-color: #eb2b2b;
+    color: white;
+}
+
+.half-2 h2{
+    text-align: left;
+    font-weight: normal;
+    font-style: italic;
+    font-size: 32px;
+}
+
+.half-2 .depoimento-single{
+    text-align: left;
+    margin-top: 19px;
+}
+
+.depoimento-single p{
+    font-size: 20px;
+}
+
+.arrows{
+    float: left;
+}
+
+.navigation{
+    float: left;
+    width: 100%;
+    max-width: 700px;
+    margin-top: 30px;
+}
+
+.navigation img{
+    cursor: pointer;
+    margin: 0 20px;
+}
+
+.nome-depoimento{
+    float: right;
+    color: black;
+    font-size: 20px;
+}
+
+/* ########## FIM SERVICO-DESCRICAO ########## */
+
+/* ########## COMEÇO CONTATO ########## */
+
+section.contato{
+    padding: 80px 2% 0 2%;
+}
+
+section.contato form{
+    max-width: 600px;
+    margin: 30px auto;
+}
+
+section.contato .input-wraper{
+    float: left;
+    padding: 10px;
+    margin-top: 10px;
+}
+
+section.contato input[type=text]{
+    width: 100%;
+    border: 1px solid #ccc;
+    height: 60px;
+    font-size: 16px;
+    line-height: 40px;
+    padding-left: 15px;
+}
+
+section.contato textarea{
+    font-size: 16px;
+    width: 100%;
+    border: 1px solid #ccc;
+    height: 120px;
+    padding: 8px;
+    resize: none;
+}
+
+section.contato form .input-wraper:nth-of-type(5){
+    text-align: center;
+}
+
+section.contato input[type=submit]{
+    cursor: pointer;
+    display: inline-block;
+}
+
+.w100{
+    width: 100%;
+}
+
+.w50{
+    width: 50%;
+}
+
+/* ########## FIM CONTATO ########## */
+
+
+/* ########## INICIO FOOTER ########## */
+
+footer{
+    padding: 40px 2%;
+    background: #252525;
+}
+
+footer nav{
+    float: left;
+}
+
+footer nav ul{
+    list-style-type: none;
+}
+
+footer nav ul li{
+    float: left;
+    font-size: 19px;
+    font-style: italic;
+    padding: 0 35px;
+}
+
+footer nav ul a{
+    color: white;
+    text-decoration: none;
+}
+
+footer p{
+    float: right;
+    color: white;
+    font-size: 16px;
+    font-style: italic;
+}
+
+/* ########## FIM FOOTER ########## */
+
+@media screen and (max-width: 1400px){
+    section.banner{
+        background-size: 90% auto;
+        background-position: 200% 100%;
+    }
+}
+
+@media screen and (max-width: 1024px){
+    section.banner{
+        background-size: cover;
+        background-position: center;
+        height: 70vw;
+        min-width: 500px;
+    }
+
+    .half-1{
+        text-align: left;
+        padding: 80px 100px;
+    }
+
+    .half-1, .half-2{
+        width: 100%;
+    }
+
+    .half-1-wraper a{
+        margin-top: 10px;
+    }
+}
+
+@media screen and (max-width: 850px){
+
+    .half-1-wraper a{
+        margin-top: 15px;
+        margin-left: 0;
+        display: block;
+    }
+
+}
+
+@media screen and (max-width: 768px){
+    nav.desktop{
+        display: none;
+    }
+
+    nav.mobile{
+        display: block;
+    }
+
+    section.servicos-descricao{
+        flex-direction: column;
+    }
+
+    .half-1{
+        text-align: left;
+        padding: 80px 100px;
+    }
+
+    .half-1, .half-2{
+        width: 100%;
+    }
+
+    .w50{
+        width: 100%;
+    }
+
+    footer nav{
+        display: none;
+    }
+
+    footer{
+        text-align: center;
+    }
+
+    footer p{
+        float: none;
+    }
+}
+
+@media screen and (max-width: 580px){
+
+    html{
+        overflow-x: hidden;
+    }
+
+    .text-banner{
+        padding: 30px;
+    }
+    
+    .text-banner-single{
+        font-size: 18px;
+
+    }
+    
+    .text-banner .text-banner-single:nth-of-type(1){
+        width: 270px;
+    }
+    
+    .text-banner .text-banner-single:nth-of-type(2){
+        width: 170px;
+    }
+    
+    .text-banner .text-banner-single:nth-of-type(3){
+        width: 70px;
+    }
+    
+    .text-banner .text-banner-single p{
+        text-align: center;
+    }
+
+    section.veiculos-destaque .line-titulo h2{
+        font-size: 23px;
+    }
+
+    section.veiculos-destaque .container{
+        max-width: 1000px;
+        padding: 40px 0;
+        text-align: center;
+    }
+
+    .vitrine-destaque{
+        display: inline-block;
+        width: 50%;
+        float: none;
+        padding-top: 20px;
+    }
+
+    .vitrine-destaque a{
+        display: inline-block;
+    }
+}
+
+@media screen and (max-width: 480px){
+    .vitrine-destaque{
+        width: 100%;
+    }
+}
