@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body{
+    height: 100%;
+}
+
+nav{
+    text-align: center;
+}
+
+nav ul{
+    list-style-type: nome;
+}
+
+nav ul li{
+    display: inline-block;
+    margin: 0 15px;
+    font-size: 16px;
+    text-transform: uppercase;
+}
+
+nav a{
+    text-decoration: none;
+    color: black;
+}

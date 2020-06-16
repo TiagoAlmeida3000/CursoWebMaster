@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body,html{
+    height: 100%;
+}
+
+.slide-menu{
+    width: 200px;
+    height: 100%;
+    background-color: peachpuff;
+}
+
+.menu-item a{
+    display: block;
+    padding: 10px 15px;
+    border-bottom:1px solid rgb(209, 165, 127);
+}
+
+.sub-menu{
+    display: none;
+    position: absolute;
+    min-width: 100px;
+    padding: 8px 12px;
+    background-color: #ccc;
+    left: 200px;
+    z-index: 1;
+}
+
+.menu-item:hover .sub-menu{
+    display: block;
+}
+

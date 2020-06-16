@@ -96,13 +96,13 @@ section.venda-single .container{
 }
 
 .nav-galeria-wraper{
-    width: 200%;  
+    /* via javascript */
 }
 
 .mini-img-wraper{
     float: left;
     padding: 9px;
-    width: calc( 33.3% * (100 / 200));
+    /* width: calc( 33.3% * (100 / 200)); */
 }
 
 .mini-img{

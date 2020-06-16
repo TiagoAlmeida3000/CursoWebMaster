@@ -18,7 +18,7 @@
                     <li><a style="color: #eb2d2d;" href="index.html">Home</a></li>
                     <li><a href="venda.html">Venda</a></li>
                     <li><a href="sobre.html">Sobre</a></li>
-                    <li><a href="">Contato</a></li>
+                    <li><a goto="contato" href="">Contato</a></li>
                 </ul>
             </nav><!--desktop-->
             <nav class="mobile">
@@ -26,7 +26,7 @@
                     <li><a style="color: #eb2d2d;" href="index.html">Home</a></li>
                     <li><a href="venda.html">Venda</a></li>
                     <li><a href="sobre.html">Sobre</a></li>
-                    <li><a href="">Contato</a></li>
+                    <li><a goto="contato" href="">Contato</a></li>
                 </ul>
             </nav><!--mobile-->
             <div class="clear"></div><!--clear-->
@@ -94,10 +94,11 @@
                 <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas orci 
                     lorem, fermentum sit amet leo sit amet, rhoncus egestas justo"
                 </p>
+                <p>Outro depoimento</p>
                 <div class="navigation">
                     <div class="arrows">
-                        <img src="imagens/arrow-left.png" alt="">
-                        <img src="imagens/arrow-right.png" alt="">
+                        <img prev src="imagens/arrow-left.png" alt="">
+                        <img next src="imagens/arrow-right.png" alt="">
                     </div><!--arrows-->
                     <div class="nome-depoimento">Ednaldo Pereira</div><!--nome-depoimento-->
                 </div><!--navigation-->               
@@ -105,7 +106,7 @@
         </div><!--half-2-->
         <div class="clear"></div><!--clear-->
     </section><!--sercicos-descricao-->
-    <section class="contato">
+    <section id="contato" class="contato">
         <div class="line-titulo">
             <div class="ln1"></div>
             <h2>Contato</h2>
@@ -136,12 +137,15 @@
                     <li><a style="color: #eb2d2d;" href="">Home</a></li>
                     <li><a href="venda.html">Venda</a></li>
                     <li><a href="sobre.html">Sobre</a></li>
-                    <li><a href="">Contato</a></li>
+                    <li><a goto="contato" href="">Contato</a></li>
                 </ul>
             </nav>
             <p>Todos os direitos reservados</p>
         </div><!--container-->
         <div class="clear"></div><!--clear-->
     </footer>
+
+    <script src="js/jquery-3.5.0.min.js"></script>
+    <script src="js/functions.js"></script>
 </body>
 </html>

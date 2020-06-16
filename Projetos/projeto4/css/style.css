@@ -9,6 +9,46 @@ html,body{
     height: 100%;   
 }
 
+/* Estilo para o plugin slick */
+
+.slick-dotted ul{
+    list-style-type: none;
+    text-align: center;
+    position: relative;
+    margin-top: 50px;
+}
+
+.slick-dotted li{
+    display: inline-block;
+    margin: 0 7px;
+}
+
+.slick-dotted button:focus{
+    outline: 0;
+}
+
+.slick-dotted li button{
+    width: 16px;
+    height: 16px;
+    border-radius: 8px;
+    color: #d8d8d8;
+    border-width: 0;
+    background: #d8d8d8;
+    opacity: 1;
+    cursor: pointer;
+}
+
+li.slick-active button{
+    background: #688293;
+    color:  #688293;
+}
+
+.slick-slide:focus{
+    outline: none;
+}
+
+/* Fim do Estilo para plugin */
+
 .clear{
     clear: both;
 }
@@ -160,7 +200,7 @@ section.perfil-container{
 }
 
 section.perfil-container .container{
-    max-width: 800px;
+    max-width: 1000px;
 }
 
 section.perfil-container .perfil-wraper{
@@ -300,6 +340,7 @@ section.depoimentos .depoimento-single{
 }
 
 .nome-depoimento img{
+    display: inline-block;
     width: 50px;
     height: 50px;
     border-radius: 25px;

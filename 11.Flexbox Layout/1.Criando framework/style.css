@@ -1,0 +1,34 @@
+header.topo-site{
+    padding: 20px 0;
+}
+
+.logo{
+    font-size: 22px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header.topo-site ul li{
+    position: relative;
+    top: 4px;
+    padding: 0 20px;
+    display: inline-block;
+}
+
+.section3{
+    padding: 20px 0;
+}
+
+.slider{
+    min-height: 600px;
+}
+
+.slider p{
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 30px;
+    color: white;
+    display: inline-block;
+    border-bottom: 4px solid white;
+}
+

@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,body{
+    height: 100%;
+}
+
+body{
+    background: blue;
+}
+
+/* Serve para estilizar somente o IE ou EDGE */
+
+_:-ms-lang(x), body{
+    background: black;
+}
+
+_:-ms-lang(x), .box{
+    width: 500px;
+    height: 500px;
+    background: orange;
+}
+
+/* Apenas para o mozilla */
+
+@-moz-document url-prefix(){
+    body{
+        background: green;
+    }
+    .box{
+        width: 500px;
+        height: 500px;
+        background: black;
+    }
+}
+
+

@@ -1,0 +1,23 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body{
+    height: 100%;
+}
+
+/* .box{
+    height: 3000px;
+    text-align: center;
+    padding-top: 300px;
+}
+ */
+
+ .box{
+     width: 500px;
+     height: 500px;
+     margin: 0 auto;
+     background-color: #ccc;
+ }
