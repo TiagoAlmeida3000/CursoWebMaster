@@ -1,0 +1,7 @@
+consulta no banco de dados
+
+    var sql = "SELECT * FROM clientes"
+    db.query(sql,(err, results)=>{
+        console.log(results)
+    })
+

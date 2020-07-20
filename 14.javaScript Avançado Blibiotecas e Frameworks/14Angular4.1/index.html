@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="">
+    <title>Document</title>
+</head>
+<body>
+
+
+
+  <div ng-app="myApp" ng-controller="myCtrl">
+
+    <p>The name is {{ lastName | uppercase }}</p>
+    
+  </div>
+
+
+  <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.4/angular.min.js"></script>
+  <script>
+    var obj = {
+      method : "GET",
+       url : "welcome.html"
+    }
+    var app = angular.module('myApp', []);
+    app.controller('myCtrl', function($scope, $http, $sce) {
+      $scope.lastName = "Tiago"
+    });
+  </script>
+</body>
+</html>

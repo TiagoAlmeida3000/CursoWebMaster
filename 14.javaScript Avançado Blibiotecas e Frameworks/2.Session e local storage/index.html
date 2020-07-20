@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="">
+    <title>Document</title>
+</head>
+<body>
+
+    <script>
+        if(typeof(Storage) !== "undefined"){
+            alert("O navegador é compativel com storage")
+            initialize()
+        }else{
+            alert("Atualize seu navegador")
+        }
+
+        function initialize(){
+            if(sessionStorage.getItem("nome") !== null){
+                alert("Ola " + sessionStorage.nome + ", seja bem-vindo(a) de volta")
+            }else{
+                alert("Ola")
+                sessionStorage.nome = "Tiago"
+            }
+        }
+    </script>
+</body>
+</html>

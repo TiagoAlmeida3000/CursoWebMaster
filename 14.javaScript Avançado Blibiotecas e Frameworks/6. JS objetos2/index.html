@@ -1,0 +1,15 @@
+<script>
+    var pessoa1 = new pessoa("Tiago",'19', function(){
+        alert("HA HAAAAA")
+    })
+
+    var pessoa2 = new pessoa("Chico", "-60", "Texto")
+
+    console.log(pessoa2.callback)
+
+    function pessoa(nome, idade, callback){
+        this.nome = nome
+        this.idade = idade
+        this.callback = callback
+    }
+</script>

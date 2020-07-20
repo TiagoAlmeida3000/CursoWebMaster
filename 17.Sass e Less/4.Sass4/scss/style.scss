@@ -1,0 +1,29 @@
+@import 'reset';
+
+.container{
+    width: 90%;
+    padding: 0 2%;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 auto;
+}
+
+.sucesso{
+    width: 33.3%;
+    height: 100px;
+    text-align: center;
+    padding: 0 2%;
+}
+
+
+@mixin tamanhoFonte(){
+    font-size: 30px;
+}
+
+.wrap{
+    @extend .container;
+    .single{
+        @extend .sucesso;
+        @include tamanhoFonte();
+    }
+}

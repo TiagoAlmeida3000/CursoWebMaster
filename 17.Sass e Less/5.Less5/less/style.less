@@ -1,0 +1,41 @@
+@import 'base';
+
+body{
+    background: lightblue;
+}
+
+.base{
+    background-color: @cor;
+    height: 10cm;
+    h2{
+        background: orange;
+        &:hover{
+            background-color: red;
+        }
+        @media screen and (max-width: 768px){
+            background-color: lightcoral;
+            &:hover{
+                background-color: lightgreen;
+            }
+        }
+    }
+
+}
+
+.one(@par){
+    width: 300px;
+    height: 300px;
+    background: red;
+    border: 3px solid @par;
+}
+
+.one{
+    width: 300px;
+    height: 300px;
+    background: red;
+    border: 3px solid green;
+}
+
+.two{
+    .one(black);
+}

@@ -1,0 +1,33 @@
+body {
+  background: lightblue;
+}
+.base {
+  background-color: #000000;
+  height: 10cm;
+}
+.base h2 {
+  background: orange;
+}
+.base h2:hover {
+  background-color: red;
+}
+@media screen and (max-width: 768px) {
+  .base h2 {
+    background-color: lightcoral;
+  }
+  .base h2:hover {
+    background-color: lightgreen;
+  }
+}
+.one {
+  width: 300px;
+  height: 300px;
+  background: red;
+  border: 3px solid green;
+}
+.two {
+  width: 300px;
+  height: 300px;
+  background: red;
+  border: 3px solid #000000;
+}

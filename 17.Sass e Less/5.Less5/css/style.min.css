@@ -1,0 +1,1 @@
+body{background:#add8e6}.base{background-color:#000;height:10cm}.base h2{background:orange}.base h2:hover{background-color:red}@media screen and (max-width:768px){.base h2{background-color:#f08080}.base h2:hover{background-color:#90ee90}}.one{width:300px;height:300px;background:red;border:3px solid green}.two{width:300px;height:300px;background:red;border:3px solid #000}

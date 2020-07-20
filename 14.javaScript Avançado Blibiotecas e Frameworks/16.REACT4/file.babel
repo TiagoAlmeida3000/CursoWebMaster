@@ -1,0 +1,28 @@
+var container = document.getElementById('main');
+
+class Box extends React.Component{
+
+    render(){       
+        return <h1>{ this.props.nome}</h1>
+    }
+}
+
+class Formulario extends React.Component{
+    
+    render(){
+        return (
+        <form>
+            <input type="text"/>
+            <input type="submit"/>
+        </form>
+        )
+    }
+}
+
+ReactDOM.render(
+<div>
+    <Box nome="Tiago"/>
+    <Box nome="Diciplinador"/>
+    <Box nome="João"/>
+    <Formulario/>
+</div>,container);

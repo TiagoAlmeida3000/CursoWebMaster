@@ -1,0 +1,16 @@
+@import 'reset';
+
+@mixin tracaCor($par){
+    background-color: $par;
+    margin-left: 90px;
+}
+
+div{
+    @include tracaCor(rosybrown);
+    width: 100px;
+    height: 50px;
+    a{
+        color: red;
+    }
+
+}

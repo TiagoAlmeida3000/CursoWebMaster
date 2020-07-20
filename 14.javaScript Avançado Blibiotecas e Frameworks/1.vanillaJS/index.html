@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="">
+    <title>Document</title>
+</head>
+<body>
+    <h1 id="main-text" onclick="displayMessage()">Ola </h1>
+    <div  class="teste">
+        <p onmouseover="displayMessage()">Hey</p>
+    </div>
+    <p>Oh My God</p>
+    <script>
+        function displayMessage(){
+            alert('Hey')
+        }
+        window.onload = function(){
+            var el = document.getElementById("main-text")
+            el.innerHTML = el.innerHTML + "Mundo"
+            el.style.color = "green"
+            el.style.marginLeft = "20px"
+            el.style.border = "3px solid black"
+            el.style.display = "inline-block"
+            el.style.padding = "30px"
+
+            // var el2 = document.querySelector('p')
+            var elementos = document.querySelectorAll('p')
+            for(var i = 0; i < elementos.length; i ++){
+                elementos[i].style.background = "gold"
+            }
+
+
+
+        }
+    </script>
+</body>
+</html>
