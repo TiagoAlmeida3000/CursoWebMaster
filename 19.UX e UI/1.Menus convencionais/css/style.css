@@ -1,0 +1,141 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,body{
+    height: 100%;
+}
+
+.container{
+    max-width: 960px;
+    padding: 0 2%;
+    margin: 0 auto;
+}
+
+.clear{
+    clear: both;
+}
+
+header{
+    background: #333;
+    padding: 4px 0;
+}
+
+.logo-desktop{
+    float: left;
+}
+
+.logo-desktop a{
+    font-size: 18px;
+    text-decoration: none;
+    transition-property: color;
+    transition-duration: 0.5s;
+    color: white;
+}
+
+.logo-desktop a:hover{
+    transition: 0.5s;
+    color: rgba(200, 200, 200, 0.5);
+}
+
+.desktop{
+    float: right;
+}
+
+.desktop ul li{
+    display: inline-block;
+    padding: 0 15px;
+}
+
+.desktop ul li a{
+    text-decoration: none;
+    transition-property: color;
+    transition-duration: 0.5s;
+    color: white;
+}
+
+.desktop ul li a:hover{
+    transition: 0.5s;
+    color: rgba(200, 200, 200, 0.5);
+}
+
+.mobile{
+    display: none;
+    position: relative;
+    text-align: center;
+    width: 100%;
+}
+
+.mobile .logo-mobile a{
+    font-size: 28px;
+    text-decoration: none;
+    transition-property: color;
+    transition-duration: 0.5s;
+    color: white;
+}
+
+.mobile .logo-mobile a:hover{
+    transition: 0.5s;
+    color: rgba(200, 200, 200, 0.5);
+}
+
+
+.mobile h3{
+    position: absolute;
+    left: 0;
+    top: 0;
+    font-size: 28px;
+    margin-left: 20px;
+    transition-property: color;
+    transition-duration: 0.5s;
+    color: white;
+}
+
+.mobile h3:active{
+    transition: 0.5s;
+    color: rgba(200, 200, 200, 0.5);
+}
+
+.mobile ul{
+    display: none;
+    background: #333;
+    position: absolute;
+    left: 0;
+    top: 33px;
+    width: 100%;
+    text-align: center;
+}
+
+.mobile ul li{
+    list-style-type: none;
+    padding: 8px 0;
+    border-bottom: 1px solid white;
+}
+
+.mobile ul li a{
+    text-decoration: none;
+    transition-property: color;
+    transition-duration: 0.5s;
+    color: white;
+}
+
+.mobile ul li a:active{
+    transition: 0.5s;
+    color: rgba(200, 200, 200, 0.5);
+}
+
+@media screen and (max-width: 768px){
+    .logo-desktop,.desktop{
+        display: none;
+    }
+
+    .mobile{
+        display: block;
+        width: 100%;
+    }
+    header .container{
+        padding: 0;
+    }
+}

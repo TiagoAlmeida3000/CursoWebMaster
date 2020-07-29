@@ -1,0 +1,307 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto';
+}
+
+html,body{
+    height: 100%;
+}
+
+@font-face{
+    font-family: 'Roboto';
+    src: url(../fonts/Roboto-Regular.ttf);
+}
+
+.clear{
+    clear: both;
+}
+
+/* ######### side_bar ######### */
+
+.side_bar_desktop{
+    float: left;
+    width: 20%;
+    max-width: 300px;
+    min-width: 300px;
+    min-height: 475px;
+    background: #203035;
+    height: 100%;
+}
+
+.side_bar_desktop .topo
+{
+    background: #26282d;
+    text-align: center;
+    padding: 20px 10px;
+}
+
+.side_bar_desktop .topo h3{
+    font-size: 30px;
+    color: white;
+}
+
+.side_bar_desktop .menu{
+    padding: 60px 0 20px 20px;
+}
+
+.side_bar_desktop .menu ul{
+    list-style-type: none;
+}
+
+.side_bar_desktop .menu ul li{
+    margin-bottom: 20px;
+}
+
+.side_bar_desktop .menu ul li:nth-child(6){
+    margin-bottom: 10px;
+}
+
+.side_bar_desktop .menu ul li:nth-child(7){
+    margin-bottom: 0px;
+}
+
+
+.side_bar_desktop .menu ul li i{
+    text-align: center;
+    width: 10%;
+    font-size: 25px;
+    transition-property: color;
+    transition: 0.3s;
+    color: #878484;
+}
+
+.side_bar_desktop .menu ul li a{
+    text-decoration: none;
+    font-size: 25px;
+    width: 60%;
+    display: inline-block;
+    margin-left: 20px;
+    transition-property: color;
+    transition: 0.3s;
+    color: #878484;
+}
+
+
+.side_bar_desktop .menu ul li:hover a{
+    transition: 0.2s;
+    color: whitesmoke;
+}
+
+.side_bar_desktop .menu ul li:hover i{
+    transition: 0.2s;
+    color: #6d3bb8;
+}
+
+/* ######### fim side_bar ######### */
+
+/* ######### main_content ######### */
+
+.main_content{
+    float: left;
+    width: calc(100% - 300px);
+    height: 100%;
+    background-color: whitesmoke;
+    min-height: 475px;
+}
+
+header{
+    
+    height: 77px;
+    background: white;
+    padding: 20px 15px;
+    border-bottom: 2px solid #ccc;
+}
+
+.pesquisa_campo{
+    float: right;
+}
+
+.icone_pesquisa{
+    background-color: #878484;
+    padding: 5px;
+    color: white;
+    display: inline-block;
+    vertical-align: top;
+    height: 23.5px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+.icone_pesquisa i{
+    font-size: 18px;
+    position: relative;
+    top: -2px;
+}
+
+.pesquisa_campo form{
+    display: inline-block;
+}
+
+.pesquisa_campo input[type=text]{
+    width: 200px;
+    padding-left: 5px;
+    outline: 0;
+    font-size: 18px;
+    border-left: 0;
+    border-top: 1px solid #878484;
+    border-right: 1px solid #878484;
+    border-bottom: 1px solid #878484;
+}
+
+.icone_alerta{
+    background: #fbedef;
+    float: right;
+    margin-right: 28px;
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    border-radius: 50%;
+    position: relative;
+}
+
+.icone_alerta p{
+    font-weight: bold;
+    font-size: 10px;
+    width: 15px;
+    position: absolute;
+    left: -8px;
+    top: -8px;
+    display: inline-block;
+    background: #ed7387;
+    color: white;
+    padding: 2px;
+    border-radius: 50%;
+}
+
+.icone_alerta i{
+    line-height: 30px;
+    color: #ed7387;
+}
+
+.nome_usuario{
+    float: left;
+    margin-left: 20px;
+}
+
+.nome_usuario h2{
+    position: relative;
+    font-weight: normal;
+    top: 7px;
+    font-size: 18px;
+    
+}
+
+.ico{
+    display: none;
+    float: left;
+    font-size: 30px;
+    color: #ccc;
+}
+
+.content_1{
+    float: left;
+    width: 70%;
+    padding: 30px;
+    height: calc(100% - 77px);
+    overflow-y: auto;
+}
+
+.painel{
+    width: 100%;
+    float: left;
+    background: white;
+    border: 1px solid #ccc;
+    padding: 30px;
+
+}
+
+.painel h2{
+    color: #878484;
+    font-weight: normal;
+}
+
+.painel p{
+    color: #878484;
+    font-weight: normal;
+}
+
+.pw50{
+    width: 49%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.ultimas_atividades{
+    width: 30%;
+    background: #eaebeb;
+    padding: 30px;
+    float: left;
+    height: calc(100% - 77px);
+    overflow-y: auto;
+    
+}
+
+.atividades_topo h2{
+    text-align: center;
+    color: #878484;
+    font-size: 23px;
+    border-bottom: 1px solid #ccc;
+    padding: 15px;
+}
+
+.ativideda_registro{
+    position: relative;
+    padding: 10px 0;
+    margin: 0 auto;
+    width: 70%;
+    border-bottom: 1px solid #ccc;
+}
+
+
+.ativideda_registro p{
+    margin-bottom: 20px;
+    color: #878484;
+}
+
+.ativideda_registro h3{
+    color: #5c5959;
+}
+
+
+.circle_atividade{
+    position: absolute;
+    left: 0px;
+    top: 7px;
+    width: 23px;
+    height: 23px;
+    border-radius: 50%;
+    border: 1px solid #ccc;
+}
+
+@media screen and (max-width: 1024px){
+    .ultimas_atividades{
+        display: none;
+    }
+
+    .content_1{
+        width: 100%;
+    }
+
+    .painel{
+        width: 100% !important;
+    }
+
+    .side_bar_desktop{
+        display: none;
+    }
+
+    .main_content{
+        width: 100%;
+    }
+
+    .ico{
+        display: block;
+    }
+}
